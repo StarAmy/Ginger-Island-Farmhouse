@@ -1,0 +1,63 @@
+{
+  "Format": "1.28.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/IslandFarmHouse",
+      "FromFile": "assets/NewIslandHouse.tmx"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/IslandFarmhouse",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/{{Random:IslandWindowsSunnyDay, IslandWindowOneButterfly, IslandWindowTwoButterfly, IslandWindowThreeButterfly, IslandWindowFourButterfly, IslandWindowOneChameleon, IslandWindowTwoLorikeet, IslandWindowThreeFinches, IslandWindowFourIguana}}.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "When": {
+      "Weather": "Sun",
+      "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+     {
+      "Action": "EditMap",
+      "Target": "Maps/IslandFarmhouse",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/IslandWindowsSunnyNight.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "When": {
+      "Weather": "Sun",
+      "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/IslandFarmhouse",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/IslandWindowsRainingDay.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "When": {
+      "Weather": "Rain",
+      "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+     {
+      "Action": "EditMap",
+      "Target": "Maps/IslandFarmhouse",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/IslandWindowsRainingNight.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "ToArea": { "X": 0, "Y": 0, "Width": 30, "Height": 18 },
+      "When": {
+      "Weather": "Rain",
+      "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    ]
+
+}

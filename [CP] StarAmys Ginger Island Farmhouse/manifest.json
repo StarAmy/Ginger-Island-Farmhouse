@@ -1,0 +1,11 @@
+{
+    "Name": "StarAmys Ginger Island Farmhouse",
+    "Author": "StarAmy",
+    "Version": "1.0.0",
+    "Description": "An island farmhouse replacement map with a functioning mini-spa and dynamic windows.",
+    "UniqueID": "StarAmy.IslandFarmhouse",
+    "MinimumApiVersion": "2.11.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

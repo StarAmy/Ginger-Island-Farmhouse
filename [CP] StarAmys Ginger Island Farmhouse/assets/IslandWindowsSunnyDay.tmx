@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="375">
+ <properties>
+  <property name="LocationContext" value="Island"/>
+  <property name="SeasonOverride" value="summer"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="windows_sunny" tilewidth="16" tileheight="16" tilecount="144" columns="12">
+  <image source="windows_sunny.png" width="192" height="192"/>
+ </tileset>
+ <layer id="3" name="Buildings" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztjckOgkAQBec4v42AyCIIKrKouH0odbNDhsNc9NKVVPLSqzH/JbDGbDC031pEjnFr1/eWJMzuMBU7GTnHwnFnT63ESvQO5Bobj79HZk94Fjst+YKd405PbcBR9K7kG949/k7MPvApdl7kN3487iiKoijKL5gBfrMVuw==
+  </data>
+ </layer>
+</map>
