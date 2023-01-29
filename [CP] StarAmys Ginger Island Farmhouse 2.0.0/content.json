@@ -1,10 +1,27 @@
 {
   "Format": "1.28.0",
+  "ConfigSchema":{
+       "Version":{
+         "AllowValues":"Bathroom, No Bathroom",
+         "Default":"Bathroom"
+      },
+    },
   "Changes": [
     {
       "Action": "Load",
       "Target": "Maps/IslandFarmHouse",
-      "FromFile": "assets/NewIslandHouse.tmx"
+      "FromFile": "assets/NewIslandHouseBath.tmx",
+      "When":{
+            "Version":"Bathroom",
+          }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/IslandFarmHouse",
+      "FromFile": "assets/NewIslandHouse.tmx",
+       "When":{
+            "Version":"No Bathroom",
+          }
     },
     {
       "Action": "EditMap",
